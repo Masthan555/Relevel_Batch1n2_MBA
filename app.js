@@ -28,7 +28,7 @@ mongoose.connect(dbConfig.DB_URL, async () => {
             director: "Frank Darabont",
             trailerUrls: ["https://www.imdb.com/video/vi3877612057/?playlistId=tt0111161&ref_=tt_ov_vi"],
             posterUrls: ["https://www.imdb.com/title/tt0111161/mediaviewer/rm10105600/?ref_=tt_ov_i"],
-            releaseDate: new Date(1994).toISOString()
+            releaseDate: new Date(1994, 05, 01).toISOString()
         },
         {
             name: "The Godfather",
@@ -37,7 +37,7 @@ mongoose.connect(dbConfig.DB_URL, async () => {
             director: "Francis Ford Coppola ",
             trailerUrls: ["https://www.imdb.com/video/vi1348706585/?playlistId=tt0068646&ref_=tt_pr_ov_vi"],
             posterUrls: ["https://www.imdb.com/title/tt0068646/mediaviewer/rm746868224/?ref_=tt_ov_i"],
-            releaseDate: new Date(1972).toISOString()
+            releaseDate: new Date(1972, 03, 02).toISOString()
         },
         {
             name: "The Dark Knight",
@@ -46,7 +46,7 @@ mongoose.connect(dbConfig.DB_URL, async () => {
             director: "Christopher Nolan",
             trailerUrls: ["https://www.imdb.com/video/vi324468761/?playlistId=tt0468569&ref_=tt_pr_ov_vi"],
             posterUrls: ["https://www.imdb.com/title/tt0468569/mediaviewer/rm4023877632/?ref_=tt_ov_i"],
-            releaseDate: new Date(2008).toISOString()
+            releaseDate: new Date(2008, 01, 23).toISOString()
         },
         {
             name: "The Lord of the Rings: The Return of the King (2003)",
@@ -55,7 +55,7 @@ mongoose.connect(dbConfig.DB_URL, async () => {
             director: "Peter Jackson",
             trailerUrls: ["https://www.imdb.com/video/vi324468761/?playlistId=tt0468569&ref_=tt_pr_ov_vi"],
             posterUrls: ["https://www.imdb.com/title/tt0468569/mediaviewer/rm4023877632/?ref_=tt_ov_i"],
-            releaseDate: new Date(2003).toISOString()
+            releaseDate: new Date(2003, 03, 25).toISOString()
         },{
             name: "Schindler's List",
             description: "In German-occupied Poland during World War II, industrialist Oskar Schindler gradually becomes concerned for his Jewish workforce after witnessing their persecution by the Nazis.",
@@ -63,7 +63,7 @@ mongoose.connect(dbConfig.DB_URL, async () => {
             director: "Steven Spielberg",
             trailerUrls: ["https://www.imdb.com/video/vi3877612057/?playlistId=tt0111161&ref_=tt_ov_vi"],
             posterUrls: ["https://www.imdb.com/title/tt0111161/mediaviewer/rm10105600/?ref_=tt_ov_i"],
-            releaseDate: new Date(1993).toISOString()
+            releaseDate: new Date(1993, 02, 10).toISOString()
         }
     ];
 
